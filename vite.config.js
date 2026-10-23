@@ -6,7 +6,7 @@ module.exports = {
     outDir: "dist",
     emptyOutDir: true,
     lib: {
-      entry: path.join(__dirname, "public", "realtime-client.js"),
+      entry: path.join(__dirname, "realtime-client.js"),
       formats: ["es"],
       fileName: () => "realtime.js",
     },
